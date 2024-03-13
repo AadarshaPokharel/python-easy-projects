@@ -4,8 +4,6 @@ master_pwd = input("Enter the master password? ")
 
 
 
-haha
-
 def view():
     with open("password.txt","r") as f:
         for line in f.readlines():
